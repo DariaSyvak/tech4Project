@@ -1,0 +1,41 @@
+package enums;
+
+public class Constants {
+
+    public enum Gender{
+        FEMALE,
+        MALE,
+        OTHER
+    }
+    public enum TShirtSize{
+        SMALL,
+        MEDIUM,
+        LARGE,
+        XLARGE
+    }
+    public enum Month{
+        JANUARY,
+        FEBRUARY,
+        MARCH,
+        APRIL,
+        MAY,
+        JUNE,
+        JULY,
+        AUGUST,
+        SEPTEMBER,
+        OCTOBER,
+        NOVEMBER,
+        DECEMBER;
+
+
+    }
+
+    public enum Frequencies{
+        DAILY,
+        WEEKLY,
+        BIWEEKLY,
+        MONTHLY,
+        YEARLY,
+        HOURLY
+    }
+}

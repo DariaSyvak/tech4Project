@@ -7,7 +7,6 @@ public class BasicRegex {
     public static void main(String[] args) {
         Pattern pattern=Pattern.compile("o");
         Matcher matcher=pattern.matcher("I love TechGlobal");
-
         System.out.println(matcher.matches());
         while(matcher.find()){
             System.out.println(matcher.group());
