@@ -14,7 +14,7 @@ public class Homework18 {
 
     //TASK-2
     public static String replaceFirstLast(String str) {
-        String str1 = str.trim().replaceAll("\\s+", "\\s");
+        String str1=str.trim().replaceAll("\\s+","\\s");
         if (str1.length() < 2) return "";
         else return str1.charAt(str1.length() - 1) + str1.substring(1, str1.length() - 1) + str1.charAt(0);
     }
