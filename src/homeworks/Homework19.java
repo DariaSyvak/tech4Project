@@ -59,25 +59,22 @@ public class Homework19 {
     }
     //Task-8
     public static String[]categorizeCharacters(String str){
-            String specials="";
-            String letters="";
-            String digits="";
-            for (int i = 0; i <str.length() ; i++) {
-                if (Character.isDigit(str.charAt(i)))digits+=str.charAt(i);
-                else if(Character.isLetter(str.charAt(i))) letters+= str.charAt(i);
-                else specials+=str.charAt(i);
-            }
-            return new String[]{letters, digits, specials};
-
+        String []result={"","",""};
+        for (char character : str.toCharArray()) {
+            if(Character.isLetter(character))result[0]+=character;
+            else if(Character.isDigit(character))result[1]+=character;
+            else result[2]+=character;
+        }
+        return result;
     }
 
     public static void main(String[] args) {
         System.out.println(noDigit("lola13"));
         System.out.println(noVowels("daria"));
-       // System.out.println(sumOfDigits("lolo123"));
+        System.out.println(sumOfDigits("lolo123"));
         System.out.println(hasUpperCase("Leon"));
         System.out.println(midlInt(1,2,3));
-        //System.out.println(Arrays.toString(no13(new int[]{1,13,14,15,13})));
+        System.out.println(Arrays.toString(no13(new int[]{1,13,14,15,13})));
         System.out.println(Arrays.toString(factorial(new int[]{0, 5, 4, 1, 3, 2})));
         System.out.println(Arrays.toString(categorizeCharacters("123ftr#$s%")));
 
