@@ -3,6 +3,7 @@ package homeworks;
 import java.lang.reflect.Array;
 import java.util.*;
 
+
 public class Homework22 {
 
     //Task-1
@@ -59,12 +60,12 @@ public class Homework22 {
     public static void main(String[] args) {
         int[] arr1 = {8, 9, 7, 5};
         int[] arr2 = {8, 9, 8, 7};
-        int[] nums = {2, 3, 45, 1, 2, 3};
+        int[] arr3 = {2, 3, 45, 1, 2, 3};
         System.out.println(Arrays.toString(fibonacciSeries1(8)));
         System.out.println(fibonacciSeries2(8));
         System.out.println(Arrays.toString(findUniques(arr1, arr2)));
         System.out.println(isPowerOf3(3));
-        System.out.println(firstDuplicate(nums));
+        System.out.println(firstDuplicate(arr3));
     }
 
 
