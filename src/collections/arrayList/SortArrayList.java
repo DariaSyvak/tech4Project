@@ -16,7 +16,8 @@ public class SortArrayList {
         numbersList.add(3);
         numbersList.add(7);
         numbersList.add(0);
-        numbersList.add(4);
+        numbersList.add(3,13);
+        System.out.println(numbersList.get(3));
 
         System.out.println("My list before sorting = " + numbersList);
         Collections.sort(numbersList);

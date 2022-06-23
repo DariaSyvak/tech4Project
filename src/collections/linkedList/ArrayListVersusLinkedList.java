@@ -10,6 +10,7 @@ public class ArrayListVersusLinkedList {
         numbers.add(12.5);
         numbers.add(13.3);
         numbers.add(17.7);
+        numbers.add(2,12.3);
 
         System.out.println(numbers);
         System.out.println("LOOPING LINKED-LIST");

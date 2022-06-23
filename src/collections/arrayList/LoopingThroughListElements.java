@@ -11,6 +11,7 @@ public class LoopingThroughListElements {
         chars.add('A');
         chars.add('B');
         chars.add('C');
+
         System.out.println("My list before sort = "+ chars);
         Collections.sort(chars);
         System.out.println("My list after sort ="+ chars);

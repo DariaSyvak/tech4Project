@@ -1,9 +1,6 @@
 package collectionFramework;
 
-import java.util.HashMap;
-import java.util.LinkedHashMap;
-import java.util.TreeMap;
-import java.util.TreeSet;
+import java.util.*;
 
 public class HashMapPractice {
     public static void main(String[] args) {
@@ -17,6 +14,7 @@ public class HashMapPractice {
         capitals.put("US","DC");
         capitals.put("Canada","Ottawa");
 
+
         System.out.println(capitals);//{Canada=Ottawa, Ukraine=Kiev, Italy=Rome, Portugal=Lisbon, US=DC, Spain=Madrid}
         System.out.println(capitals.get("Spain"));
 
@@ -28,6 +26,9 @@ public class HashMapPractice {
         student.put(4,"Data");
         student.put(null,"John");
         student.put(null,"Alex");//will replace John with Alex
+
+
+
 
 
         System.out.println(student.size());

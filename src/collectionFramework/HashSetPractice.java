@@ -17,6 +17,7 @@ public class HashSetPractice {
         numbers1.add(-7);
         numbers1.add(-55);
 
+
         System.out.println(numbers1);
 
         TreeSet<Integer>numbers=new TreeSet<>();
